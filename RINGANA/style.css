@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivanta Fresh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Vivanta Fresh</h1>
+        <p class="slogan">Tu esencia, más viva que nunca.</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#categorias">Categorías</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="seccion">
+        <h2>Bienvenido a Vivanta Fresh</h2>
+        <p>Descubre el poder de la cosmética natural con productos Ringana que cuidan tu piel y tu bienestar.</p>
+        <p>Explora nuestros productos por categorías y elige el que más se adapte a ti.</p>
+    </section>
+
+    <!-- Categorías -->
+    <section id="categorias" class="seccion">
+        <h2>Categorías de Productos</h2>
+
+        <!-- Anti Arrugas -->
+        <div class="categoria">
+            <h3>ANTI ARRUGAS</h3>
+            <img src="images/ANTI-ARRUGAS-FOTO.jpg" alt="Anti Arrugas">
+            <details>
+                <summary>Ver detalles del producto</summary>
+                <p><strong>Beneficios:</strong> Reduce visiblemente las arrugas y líneas de expresión.</p>
+                <p><strong>Ingredientes:</strong> Ácido hialurónico, colágeno marino, vitamina C.</p>
+                <div class="galeria">
+                    <img src="images/ANTI-ARRUGAS-INF.jpg" alt="Anti Arrugas Info">
+                    <img src="images/ANTI-ARRUGAS.jpg" alt="Anti Arrugas Extra">
+                </div>
+                <a href="https://prueba.com" class="boton">Comprar Ahora</a>
+            </details>
+        </div>
+
+        <!-- Desodorante -->
+        <div class="categoria">
+            <h3>DESODORANTE</h3>
+            <img src="images/DESODORANTE.jpg" alt="Desodorante">
+            <details>
+                <summary>Ver detalles del producto</summary>
+                <p><strong>Beneficios:</strong> Protección duradera sin irritaciones.</p>
+                <p><strong>Ingredientes:</strong> Extractos naturales y aceites esenciales.</p>
+                <div class="galeria">
+                    <img src="images/DESODORANTEE.jpg" alt="Desodorante Extra">
+                </div>
+                <a href="https://prueba.com" class="boton">Comprar Ahora</a>
+            </details>
+        </div>
+
+        <!-- Dientes y Encías -->
+        <div class="categoria">
+            <h3>DIENTES Y ENCIAS</h3>
+            <img src="images/DIENTES Y ENCIAS.jpg" alt="Dientes y Encias">
+            <details>
+                <summary>Ver detalles del producto</summary>
+                <p><strong>Beneficios:</strong> Limpieza profunda cuidando encías sensibles.</p>
+                <p><strong>Ingredientes:</strong> Minerales naturales y extractos vegetales.</p>
+                <div class="galeria">
+                    <img src="images/DIENTES Y ENCIAS INF.jpg" alt="Dientes y Encías Info">
+                    <img src="images/DIENTES Y ENCIAS PEOPLE.jpg" alt="Dientes y Encías People">
+                </div>
+                <a href="https://prueba.com" class="boton">Comprar Ahora</a>
+            </details>
+        </div>
+
+        <!-- Eye Serum -->
+        <div class="categoria">
+            <h3>EYE SERUM</h3>
+            <img src="images/EYE SERUM.jpg" alt="Eye Serum">
+            <details>
+                <summary>Ver detalles del producto</summary>
+                <p><strong>Beneficios:</strong> Reduce bolsas y ojeras, ilumina la mirada.</p>
+                <p><strong>Ingredientes:</strong> Cafeína, extracto de pepino, ácido hialurónico.</p>
+                <div class="galeria">
+                    <img src="images/EYE SERUM INFORMATION.jpg" alt="Eye Serum Info">
+                    <img src="images/EYE SERUM PEOPLE.jpg" alt="Eye Serum People">
+                </div>
+                <a href="https://prueba.com" class="boton">Comprar Ahora</a>
+            </details>
+        </div>
+
+        <!-- Listing Effect -->
+        <div class="categoria">
+            <h3>LISTING EFFECT</h3>
+            <img src="images/LISTING EFFECT.jpg" alt="Listing Effect">
+            <details>
+                <summary>Ver detalles del producto</summary>
+                <p><strong>Beneficios:</strong> Efecto tensor inmediato, suaviza la piel.</p>
+                <p><strong>Ingredientes:</strong> Extracto de algas, minerales naturales.</p>
+                <div class="galeria">
+                    <img src="images/LISTING EFFECT INF.jpg" alt="Listing Effect Info">
+                    <img src="images/LISTING EFFECT PEOPLE.jpg" alt="Listing Effect People">
+                </div>
+                <a href="https://prueba.com" class="boton">Comprar Ahora</a>
+            </details>
+        </div>
+
+        <!-- Skin Perfection -->
+        <div class="categoria">
+            <h3>SKIN PERFECTION</h3>
+            <img src="images/SKIN PERFECTION.jpg" alt="Skin Perfection">
+            <details>
+                <summary>Ver detalles del producto</summary>
+                <p><strong>Beneficios:</strong> Unifica el tono y mejora la textura de la piel.</p>
+                <p><strong>Ingredientes:</strong> Vitamina C, extractos de frutas antioxidantes.</p>
+                <div class="galeria">
+                    <img src="images/SKIN PERFECTION 2.jpg" alt="Skin Perfection 2">
+                    <img src="images/SKIN PERFECTION INFORMATION.jpg" alt="Skin Perfection Info">
+                </div>
+                <a href="https://prueba.com" class="boton">Comprar Ahora</a>
+            </details>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <p>Para más información o pedidos personalizados, contáctanos:</p>
+        <p>Email: info@vivantafresh.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Vivanta Fresh. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
